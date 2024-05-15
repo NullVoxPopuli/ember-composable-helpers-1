@@ -1,3 +1,12 @@
+# ⚠️ Unmaintained ⚠️ Do not use ⚠️
+
+Use this fork instead:
+https://github.com/NullVoxPopuli/ember-composable-helpers
+
+it also has instructions for dealing with dependencies that declare dependence on this copy of ember-composable-helpers.
+
+--------------------
+
 # ember-composable-helpers
 ![Download count all time](https://img.shields.io/npm/dt/ember-composable-helpers.svg) [![CircleCI](https://circleci.com/gh/DockYard/ember-composable-helpers.svg?style=shield)](https://circleci.com/gh/DockYard/ember-composable-helpers) [![npm version](https://badge.fury.io/js/ember-composable-helpers.svg)](https://badge.fury.io/js/ember-composable-helpers) [![Ember Observer Score](http://emberobserver.com/badges/ember-composable-helpers.svg)](http://emberobserver.com/addons/ember-composable-helpers)
 
