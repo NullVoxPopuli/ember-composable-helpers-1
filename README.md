@@ -1,6 +1,20 @@
 # ⚠️ Unmaintained ⚠️ Do not use ⚠️
 
-Use this fork instead:
+With GJS / GTS / `<template>` components, most of composable-helpers is no longer needed.
+Just use JavaScript.
+For example:
+```gjs
+const getActive = (data) => data.filter(d => d.active);
+
+<template>
+  {{#each (getActive @data) as |activeData|}}
+    {{activeData.name}}
+  {{/each}}
+</template>
+```
+
+
+If you have ember-composable-helpers in your dependency graph somewhere, and/or don't want to migrate away, use this fork instead:
 https://github.com/NullVoxPopuli/ember-composable-helpers
 
 it also has instructions for dealing with dependencies that declare dependence on this copy of ember-composable-helpers.
